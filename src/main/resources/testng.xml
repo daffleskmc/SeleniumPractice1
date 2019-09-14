@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-Commerce QA Page">
+
+<listeners>
+	<listener class-name="com.ecom.util.ExtentReportListener"/>
+</listeners>
+
+	<test name="E-Commerce Test Cases">
+		 <classes>
+<!-- 		 	<class name="com.ecom.test.pages.EComMainPageTest"></class> -->
+<!-- 		 	<class name="com.ecom.test.pages.EComAcctCreationPageTest"></class> -->
+<!-- 		 	<class name="com.ecom.test.pages.EComLoginPageTest"></class> -->
+		 	<class name="com.ecom.test.pages.EComAccountPageTest"></class>
+		 </classes>
+	</test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [E-Commerce QA Page]">
+  <listeners>
+    <listener class-name="com.ecom.util.ExtentReportListener"/>
+  </listeners>
+  <test name="E-Commerce Test Cases(failed)">
+    <classes>
+      <class name="com.ecom.test.pages.EComAccountPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="shopTshirtsTest"/>
+        </methods>
+      </class> <!-- com.ecom.test.pages.EComAccountPageTest -->
+    </classes>
+  </test> <!-- E-Commerce Test Cases(failed) -->
+</suite> <!-- Failed suite [E-Commerce QA Page] -->
